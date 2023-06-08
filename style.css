@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: linear-gradient(#04052e, #4a4e69); 
+    color: #fca311;   
+}
+.container {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+   
+.home {
+    font-family: UNIVERSIDAD PERSONAL USE;
+    font-size: 6.25rem;
+}
+
+.btn {
+    padding: 0.625rem 1.25rem;
+    border: 1px solid black;
+    background: #f1faee;
+    color: black;
+    font-weight: bold;
+    font-size: 1.563rem;
+    text-shadow: 0px 0px 2px gray;
+    border-radius: 50px;
+    font-family: Cursed Timer ULiL;
+}
+
+.guest {
+    font-size: 100px;
+    font-family: UNIVERSIDAD PERSONAL USE;
+}
+
+#away-result, #home-result  {
+    width: 12.5rem;
+    height: 12.5rem;
+    background: #000000;
+    border: 1px solid #e5e5e5;
+    color: #e5383b;
+    font-family: Cursed Timer ULiL;
+    font-size:  6.25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+  
+@media only screen and (min-width: 500px) {
+    .container {
+        width: 100%;
+        flex-direction: row;
+    }
+    
+}
+
+
+
